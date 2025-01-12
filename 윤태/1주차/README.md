@@ -1,6 +1,6 @@
 # 배열, 문자열
 
-1. [1152-단어의 개수](https://www.acmicpc.net/problem/1120)
+1. [1152-단어의 개수](https://www.acmicpc.net/problem/1152)
    <br>
    처음 접근: trim 메서드로 좌우 공백을 제거하고 split 메서드로 배열에 나눠 담은 후 배열의 길이를 반환하면 되겠다.
    <br>

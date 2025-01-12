@@ -16,10 +16,11 @@ public class p1 {
     }
 
     public static int solution(String myString) {
-        if(myString.trim().isEmpty()) {
+        String trimed = myString.trim();
+        if(trimed.isEmpty()) {
             return 0;
         } else {
-            String[] words = myString.trim().split("\\s+");
+            String[] words = trimed.split("\\s+");
             return words.length;
         }
     }
