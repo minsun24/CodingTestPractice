@@ -15,7 +15,7 @@ import java.util.List;
 import java.util.ArrayList;
 
 
-class Main{
+public class BJ1181{
     public static void main(String[] args){
         Scanner sc = new Scanner(System.in);
         int N = sc.nextInt();
