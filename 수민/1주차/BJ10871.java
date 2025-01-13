@@ -12,7 +12,7 @@ public class BJ10871 {
             arr[i] = sc.nextInt();
 
             if(X > arr[i]){
-                // 공백 포함해서 출력하기
+                // 공백 포함해서 출력하기.
                 System.out.println(arr[i] + "");
             }
         }
