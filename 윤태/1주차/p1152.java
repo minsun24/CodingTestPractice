@@ -1,4 +1,4 @@
-public class p1 {
+public class p1152 {
     public static void main(String[] args) {
         String str1 = "The Curious Case of Benjamin Button";
         String str2 = " The first character is a blank";
