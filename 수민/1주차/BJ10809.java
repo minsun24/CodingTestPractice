@@ -7,7 +7,7 @@ public class BJ10809 {
 
         String s = sc.next();
 
-        // arr 배열의 모든 값을 -1로 초기화.
+        // arr 배열의 모든 값을 -1로 초기화
         int[] arr = new int[26];
         for (int i = 0; i < 26; i++) {
             arr[i] = -1;
