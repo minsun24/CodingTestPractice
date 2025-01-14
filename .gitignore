@@ -16,6 +16,12 @@
 *_LOCAL_*.txt
 *_REMOTE_*.txt
 
+# IntelliJ 설정 폴더 무시
+.idea/
+
+# 빌드 결과물 무시
+/out/
+
 ### Intellij ###
 # Covers JetBrains IDEs: IntelliJ, RubyMine, PhpStorm, AppCode, PyCharm, CLion, Android Studio, WebStorm and Rider
 # Reference: https://intellij-support.jetbrains.com/hc/en-us/articles/206544839
@@ -56,7 +62,7 @@
 # .idea/modules.xml
 # .idea/*.iml
 # .idea/modules
-# *.iml
+ *.iml
 # *.ipr
 
 # CMake
