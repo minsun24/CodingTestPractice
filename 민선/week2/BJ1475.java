@@ -49,7 +49,6 @@ public class BJ1475{
             if(num > max_){
                 max_ = num;
             }
-
         }
 
         System.out.println(max_);
