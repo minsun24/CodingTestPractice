@@ -9,6 +9,7 @@
     -
 
  */
+package week1;
 import java.util.*;
 
 public class BJ1337 {

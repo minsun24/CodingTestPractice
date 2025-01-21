@@ -1,6 +1,7 @@
 /*
     10813번 : 공 바꾸기
  */
+package week1;
 import java.util.*;
 
 public class BJ10813 {

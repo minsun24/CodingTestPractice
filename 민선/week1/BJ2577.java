@@ -2,7 +2,9 @@
     2577번 : 숫자의 개수
     A × B × C를 계산한 결과에 0부터 9까지 각각의 숫자가 몇 번씩 쓰였는지
  */
+package week1;
 import java.util.*;
+
 
 public class BJ2577 {
     public static void main(String[] args) {

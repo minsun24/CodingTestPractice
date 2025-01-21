@@ -10,6 +10,7 @@
         문자열 탐색: O(N)
         배열 출력: O(1)
  */
+package week1;
 import java.util.*;
 
 public class BJ10809 {

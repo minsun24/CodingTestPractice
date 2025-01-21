@@ -9,6 +9,7 @@
     # 시간복잡도 : O(N log N)
         배열 생성-O(N), Array.sort()-O(NlogN), 역순 출력-O(N)
  */
+package week1;
 import java.util.*;
 
 public class BJ1427 {

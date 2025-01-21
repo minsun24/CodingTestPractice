@@ -12,6 +12,8 @@
 
     # 시간 복잡도 : O(N)
  */
+package week1;
+
 import java.util.*;
 
 public class BJ1541 {

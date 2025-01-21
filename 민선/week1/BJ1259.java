@@ -5,15 +5,11 @@
     # 시간복잡도 : O(N * M)
       각 문자열 길이(N),  입력받는 문자열의 개수(M)
  */
+
+
+package week1;
 import java.util.*;
 
-
-import java.util.Scanner;
-
-import java.util.*;
-
-
-import java.util.Scanner;
 
 public class BJ1259{
     public static void main(String[] args) {

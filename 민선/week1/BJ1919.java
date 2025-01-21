@@ -7,6 +7,8 @@
     같은 개수가 아니라면 -> |A-B| 개를 제거해야 한다.
 
 */
+package week1;
+
 import java.util.*;
 
 public class BJ1919 {
