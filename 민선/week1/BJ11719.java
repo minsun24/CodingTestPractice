@@ -1,4 +1,4 @@
-/*
+package week1;/*
     11719번 : 그대로 출력하기 2
     # 입력이 있을 때까지 계속 읽는 방법 : sc.hasNextLine()
 

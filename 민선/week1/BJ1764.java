@@ -10,6 +10,7 @@
             HashSet에 듣도 못한 사람 저장하고, 보도 못한 사람을 입력 받으면서 동시에 contains로 비교
             (보도 못한 사람은 따로 저장하지 않음)
  */
+package week1;
 import java.util.*;
 
 public class BJ1764 {

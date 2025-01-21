@@ -6,14 +6,8 @@
     - set 으로 입력 받고, List로 변환해서 다시 정렬
 
  */
-
-import java.util.Scanner;
-import java.util.Set;
-import java.util.TreeSet;
-import java.util.Collections;
-import java.util.List;
-import java.util.ArrayList;
-
+package week1;
+import java.util.*;
 
 public class BJ1181{
     public static void main(String[] args){
