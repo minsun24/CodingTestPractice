@@ -14,7 +14,9 @@
             스택이 empty하거나  pop한 값이 짝이 맞지 않으면 -> boolean false로 변경 (-> no 출력)
 
  */
+package week1;
 import java.util.*;
+
 public class BJ4949 {
     public static void main(String[] args) {
 
