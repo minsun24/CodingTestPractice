@@ -23,9 +23,10 @@ public class BJ3273 {
         }
 
         int x = sc.nextInt();  // 목표 합
-
+        // [5 12 7 10 9 1 2 3 11] 정렬 전
         // 정렬 후 투 포인터 사용
         Arrays.sort(arr);
+        // [1 2 3 5 7 9 10 11 12] 정렬 후
 
         int left = 0;
         int right = n - 1;
@@ -38,10 +39,11 @@ public class BJ3273 {
                 cnt++;
                 left++;
                 right--;
-            } else if (sum < x) {
-                left++;
+            } else if (sum < x) {   // 쌍 합이 기댓값보다 작으면
+                left++;             // 왼쪽 포인터 증가
             } else {
-                right--;
+                right--;            // 쌍 합이 기댓값보다 크면
+                                    // 오른쪽 포인터 감소
             }
         }
 
