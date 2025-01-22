@@ -1,4 +1,7 @@
-package week1;/*  1152 번 : 단어의 개수
+package week1;
+
+
+/*  1152 번 : 단어의 개수
     # 접근 : 문자열을 배열로 분리해서 배열 크기 출력하기
      - String[] array = String.split(구분자)
 
