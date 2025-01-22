@@ -6,9 +6,7 @@
    <br><br>
    오답 이유: 시간 초과 및 변수 타입 범위 초과
    <br><br>
-   해결: int 대신 long 사용, for문 대신 에라토스테네스의 체 활용
-   <br><br>
-   알게 된 것:
+   해결: int 대신 long 사용, 전체 순회회 대신 에라토스테네스의 체 활용
    <br><br>
 
 2. [1074-Z](https://www.acmicpc.net/problem/1074)
