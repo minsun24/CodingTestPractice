@@ -7,8 +7,11 @@
 <br>
 
 ## 1. 진행 방식
-각자 자유롭게 N문제씩 풀어오기 <br>
-매주 공통 문제 1개 실시간 풀이
+- 각자 자유롭게 N문제씩 풀어오기 
+- 돌아가며 1문제씩 풀이 공유 
+- 매주 공통 문제 1개 실시간 풀이
+
+<br>
 
 ## 2. 커리큘럼
 <details open>
@@ -16,12 +19,15 @@
 <img src="https://github.com/user-attachments/assets/7ecc9c75-ecf8-4b3e-a798-64ed0b426c83" />
 </details>
 
+<br>
+
 ## 2. 사용할 자료
 
 - 알고리즘별 문제 참고 & 무료 강의도 있어요!
   <br>
 https://github.com/encrypted-def/basic-algo-lecture/blob/master/workbook.md
 
+<br>
 
 ## 3. 과제 제출 
 ### 백준에서 JAVA 코드 제출하는 방법
@@ -37,5 +43,6 @@ public class Main{
     }
 }
 ```
-
+```
+/* 풀이 공유 및 기록을 위해 주석도 달아주는 건 어떨까요 ~ ? ? ? */ 
 ```
