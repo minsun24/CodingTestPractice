@@ -7,7 +7,8 @@
 <br>
 
 ## 1. 진행 방식
-... 업데이트 예정
+각자 자유롭게 N문제씩 풀어오기 <br>
+매주 공통 문제 1개 실시간 풀이
 
 ## 2. 커리큘럼
 <details open>
@@ -16,6 +17,10 @@
 </details>
 
 ## 2. 사용할 자료
+
+- 알고리즘별 문제 참고 & 무료 강의도 있어요!
+  <br>
+https://github.com/encrypted-def/basic-algo-lecture/blob/master/workbook.md
 
 
 ## 3. 과제 제출 
@@ -31,4 +36,6 @@ public class Main{
         System.out.println("Hello World!");
     }
 }
+```
+
 ```
