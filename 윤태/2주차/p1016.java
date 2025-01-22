@@ -2,8 +2,8 @@ import java.util.Arrays;
 
 public class p1016 {
     public static void main(String[] args) {
-        long min = 1;
-        long max = 10000000l;
+        long min = 10;
+        long max = 100;
 
         long result = p1016.solution2(min, max);
         System.out.println(result);
@@ -38,8 +38,7 @@ public class p1016 {
 
         for(long i = 2; i * i <= max; i++) {
             long square = i * i;
-            long start = Math.max(square, (min + square - 1) / square * square);
-
+            long start = Math.max(square, ((min + square - 1) / square) * square);
             for(long j = start; j <= max; j += square) {
                 isSquareFree[(int)(j - min)] = false;
             }
