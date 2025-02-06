@@ -10,6 +10,7 @@ import java.util.Scanner;
           indexOf()는 String 배열만 가능...
           
    접근 2. Map 사용
+   참고 3.
 * */
 
 
@@ -43,3 +44,30 @@ public class BJ5598 {
         
     }
 }
+
+
+// 대단한 풀이
+/*
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStreamReader;
+
+public class Main {
+    public static void main(String[] args) throws IOException {
+        BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+        String str = br.readLine();
+        String answer = "";
+
+        for(int i = 0; i < str.length(); i++) {
+            int temp = str.charAt(i) - 3;
+            if(temp < 65){
+                temp += 26;
+            }
+            char ch = (char)temp;
+            answer += ch;
+        }
+
+        System.out.println(answer);
+    }
+}
+*/
