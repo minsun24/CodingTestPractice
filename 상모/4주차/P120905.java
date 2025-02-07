@@ -14,3 +14,11 @@ class P120905 {
         return answer;
     }
 }
+
+// import java.util.Arrays;
+
+// class P120905 {
+//     public int[] solution(int n, int[] numlist) {        
+//         return Arrays.stream(numlist).filter(value -> value % n == 0).toArray();
+//     }
+// }
