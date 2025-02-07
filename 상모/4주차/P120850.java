@@ -2,20 +2,11 @@ import java.util.Arrays;
 
 class P120850 {
     public int[] solution(String my_string) {
-        StringBuilder stb = new StringBuilder();
+        my_string = my_string.replaceAll("[a-z]", "");
+        int[] answer = new int[my_string.length()];
         
-        for (char ch : my_string.toCharArray()) {
-            int num = ch - '0';
-
-            if (num <= 9) {
-                stb.append(num);
-            }            
-        }
-        
-        int[] answer = new int[stb.length()];
-        
-        for (int i = 0; i < stb.length(); i++) {
-            answer[i] = stb.charAt(i) - '0';
+        for (int i = 0; i < my_string.length(); i++) {            
+            answer[i] = my_string.charAt(i) - '0';
         }
         
         Arrays.sort(answer);
