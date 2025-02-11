@@ -7,7 +7,7 @@ public class BJ2738 {
         int N = sc.nextInt();
         int M = sc.nextInt();
 
-        // N, M 크기의 2차원 배열 생성
+        // N, M 크기의 2차원 배열 생성.
         int[][] arr1 = new int[N][M];
         int[][] arr2 = new int[N][M];
         int[][] arr3 = new int[N][M];
