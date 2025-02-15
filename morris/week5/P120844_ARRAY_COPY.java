@@ -1,3 +1,4 @@
+// 배열 회전시키기 (system.arraycopy 사용)
 class Solution {
     public int[] solution(int[] numbers, String direction) {
         int len = numbers.length;
