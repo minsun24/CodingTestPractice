@@ -1,6 +1,6 @@
 # 자료 구조 2(덱, 힙, 해시)
 
-1. [AC](https://www.acmicpc.net/problem/5430)
+1. [5430-AC](https://www.acmicpc.net/problem/5430)
    <br>
    처음 접근: LinkedList, reversed flag 활용하여 덱 구현 및 삭제
    <br><br>
