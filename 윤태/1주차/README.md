@@ -18,22 +18,11 @@
    해결: trim() 후 빈 문자열일 경우 0을 반환하게 하고 그 이후는 동일하게 진행.
    <br><br>
 
-3. [1369-배열값](https://www.acmicpc.net/problem/1369)
-   <br>
-   모르겠어요..
-   <br><br>
-
-4. [2104-부분배열 고르기](https://www.acmicpc.net/problem/2104)
+3. [2104-부분배열 고르기](https://www.acmicpc.net/problem/2104)
    <br>
    처음 접근: 2중 중첩 for문을 돌며 각 구간에 대한 함과 최솟값을 stream으로 계산하여 최댓값 갱신.
    <br><br>
    오답 이유: 시간초과. 각 구간마다 stream을 두 번씩 사용이 문제인듯 하다.
    <br><br>
    해결: 시간 초과임. 스택 써야 함. 주차의 내용과 맞지 않아 제외. 3주차로 옮겨야 함
-   <br><br>
-5. [4949-균형잡힌 세상](https://www.acmicpc.net/problem/4949)
-   <br>
-   처음 접근: 각 괄호의 개수를 count. 음수가 되면 return
-   <br><br>
-   오답 이유: 이유를 모르겠네 진짜ㅋㅋ
    <br><br>
