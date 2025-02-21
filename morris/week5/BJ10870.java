@@ -11,16 +11,16 @@ public class BJ10870 {
 
     int n = sc.nextInt();
 
-    fibonacci(n, 1);
+    fibonacci(n);
     }
 
     // 0, 1, 1, 2, 3, 5, 8, 13, 21, 34, 55
     // 1+1=2, 1+2=3, 2+3=5, 3+5=8,
-    public static int fibonacci(int n, int v) {
+    public static int fibonacci(int n) {
         // System.out.println(v);
         n++;
         // 10까지 반복됨
         if (n < 10) return 1;
-        return fibonacci(n, v+v);
+        return fibonacci(n);
     }
 }
