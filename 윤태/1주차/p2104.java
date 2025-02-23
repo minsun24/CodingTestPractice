@@ -1,6 +1,6 @@
 import java.util.Arrays;
 
-public class p2104 {
+public class P2104 {
     public static void main(String[] args) {
         int N = 6;
         int[] arr = {3, 1, 6, 4, 5, 2};
