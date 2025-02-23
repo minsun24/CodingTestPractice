@@ -11,7 +11,7 @@ public class BJ10870 {
 
     // int n = sc.nextInt();
 
-    int result = fibonacci(10);
+    int result = fibonacci(9);
     System.out.println(result);
     }
 
