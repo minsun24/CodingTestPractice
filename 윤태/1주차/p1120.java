@@ -1,4 +1,4 @@
-public class p1120 {
+public class P1120 {
     public static void main(String[] args) {
         String[] arr1 = {"adaabc", "aababbc"};      // 2
         String[] arr2 = {"hello", "xello"};         // 1

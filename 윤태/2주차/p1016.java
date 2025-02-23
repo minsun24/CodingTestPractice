@@ -1,11 +1,11 @@
 import java.util.Arrays;
 
-public class p1016 {
+public class P1016 {
     public static void main(String[] args) {
         long min = 10;
         long max = 100;
 
-        long result = p1016.solution2(min, max);
+        long result = P1016.solution2(min, max);
         System.out.println(result);
     }
 
