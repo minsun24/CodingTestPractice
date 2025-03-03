@@ -20,4 +20,16 @@
 | ---------- | ---- | ------- |
 | 시간복잡도 | O(n) | O(logn) |
 
+## Queue? PriorityQueue?
+
+| 구조      | Queue               | PriorityQueue                |
+| --------- | ------------------- | ---------------------------- |
+| 동작 방식 | FIFO                | Heap 구조                    |
+| 삽입 순서 | 들어간 순서대로     | 우선순위 정렬                |
+| 내부 구조 | LinkedList or Array | 완전 이진 트리(배열 기반 힙) |
+
+## 자료 구조 시각화
+
+[힙 시각화](https://www.cs.usfca.edu/~galles/visualization/Heap.html)
+
 출처: [잔재미코딩](https://www.fun-coding.org/post/Chapter11-heap.html#gsc.tab=0)
